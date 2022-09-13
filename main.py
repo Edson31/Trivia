@@ -11,12 +11,25 @@ CYAN = '\033[36m'
 BLANCO = '\033[37m'
 RESET = '\033[39m'
 
+
 print(AZUL+"""Hola mi nombre es Edson Effio Velasco y bienvenido a mi trivia 
 Pondré a prueba tus conocimientos
 ¿Cuál es tu nombre?"""+RESET)
 nombre = input('Ingresa tu nombre, porfavor: ')
 
 print(VERDE+"\nHola", nombre,"""te haré unas preguntas en donde vas a contestar escribiendo la letra que creas que es correcta y luego presionas 'Enter' para enviar tu respuesta\n"""+RESET)
+
+comienzo = input('\nPresiona enter si quieres comenzar: ')
+
+print('\nCuenta regresiva:\n')
+
+for i in range(5,0,-1):
+  print(i)
+  time.sleep(1)
+
+print('\nComencemos')
+
+time.sleep(1)
 
 iniciar_trivia = True
 
