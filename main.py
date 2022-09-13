@@ -14,7 +14,7 @@ RESET = '\033[39m'
 print(AZUL+"""Hola mi nombre es Edson Effio Velasco y bienvenido a mi trivia 
 Pondré a prueba tus conocimientos
 ¿Cuál es tu nombre?"""+RESET)
-nombre = input('Ingresa tu nombre: ')
+nombre = input('Ingresa tu nombre, porfavor: ')
 
 print(VERDE+"\nHola", nombre,"""te haré unas preguntas en donde vas a contestar escribiendo la letra que creas que es correcta y luego presionas 'Enter' para enviar tu respuesta\n"""+RESET)
 
